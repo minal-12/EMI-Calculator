@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #464646;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.emi-container {
+   width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.emi-input {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+input {
+    
+    padding: 5px;
+}
+
+button {
+    background-color: #1590e2;
+    color: #fff;
+    border: 2px;
+    font-size: larger;
+    font-weight: 800px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.emi-result {
+    margin-top: 20px;
+    color: red;
+}
+
+h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+#emi-value {
+    font-size: 24px;
+    color: #007BFF;
+}

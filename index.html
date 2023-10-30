@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="emi-container">
+        <h1>EMI Calculator</h1>
+        <div class="emi-input">
+            <label for="loan-amount">Loan Amount (INR):</label><br>
+            <input type="number" id="loan-amount" placeholder="Enter Loan Amount">
+        </div>
+        <div class="emi-input">
+            <label for="interest-rate">Interest Rate (%):</label><br>
+            <input type="number" id="interest-rate" placeholder="Enter Interest Rate">
+        </div>
+        <div class="emi-input">
+            <label for="loan-tenure">Loan Tenure (months):</label><br>
+            <input type="number" id="loan-tenure" placeholder="Enter Loan Tenure">
+        </div>
+        <button id="calculate-button"><strong>Calculate EMI</strong></button>
+        <div class="emi-result">
+            <h2>EMI: <span id="emi-value">0</span> INR</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
